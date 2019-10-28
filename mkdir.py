@@ -41,7 +41,7 @@ def mkdir(end):
     return count, rest
 
 
-# Running ours functions and checking how many folders were created and not created
+# Running our functions and checking how many folders were created and not created
 if __name__ == '__main__':
     num = question()
     counted = mkdir(num)
