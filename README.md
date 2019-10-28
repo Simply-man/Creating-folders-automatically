@@ -2,7 +2,7 @@
 
 #### Simply Python script that creating as many folders and one file with text in it, as we want.
 
-I wrote it, because I needed create bunch of folders with file for course on Udemy. So it's creating folder one by one with "special name". In that case is number of folder. Also it's create one-line text in file. In that case is it "# LAB {number of file} -". 
+I wrote it, because I needed create bunch of folders with file for course on Udemy. So it's creating folder one by one with "special name". In that case is number of folder. Also it's create one-line text in file. In that case is it "# LAB {number of file}". 
 
 -----
 
@@ -10,7 +10,7 @@ I wrote it, because I needed create bunch of folders with file for course on Ude
 
 First you have to clone or download repository to your local computer by running command like that in console:
 
-<b> git clone https://github.com/Simply-man/Creating-folders-automatically.git </b>
+``` git clone https://github.com/Simply-man/Creating-folders-automatically.git ```
 
 If we cloned/downloaded repositry it's time to set out our path for folders. Fill "YOUR PATH" with path when you wan't your folders:
 ```python
@@ -23,9 +23,9 @@ path_for_file = r"YOUR PATH\#{} LAB\lab {}.py".format(i+1, i+1)
 ```
 
 That's it. You have corretly configurated script. Let's run it. Go to folder with your script by typing in commad-line:
-<b>cd "YOUR PATH TO SCRIPT"</b>
+```cd "YOUR PATH TO SCRIPT"```
 then write:
-<b>python mkdir.py</b>. 
+```python mkdir.py``` 
 Once you run it, it create as many folers as you want.
 
 ## Examples
