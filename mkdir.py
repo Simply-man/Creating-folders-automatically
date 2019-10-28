@@ -24,7 +24,7 @@ def mkdir(end):
     for i in range(end):
         # Path for create folder with special name
         path = r"YOUR PATH\#{} LAB".format(i+1)
-        # Path for create file withing folder also with special name
+        # Path for create file in folder also with special name
         path_for_file = r"YOUR PATH\#{} LAB\lab {}.py".format(i+1, i+1)
         try:
             os.mkdir(path)
