@@ -1,7 +1,7 @@
 # Creating Folders Automatically
 Simply Python script that creating as many folders and one file with text in it, as we want.
 
-## Why are wrote it?
+## Why I wrote it?
 I wrote it, because I needed create bunch of folders with file for course on Udemy. So it's creating folder one by one with "special name". In that case it is number of folder. Also it's create one-line text in file. Text: <b>"# LAB {number of file}"</b>. 
 
 ## Installation
